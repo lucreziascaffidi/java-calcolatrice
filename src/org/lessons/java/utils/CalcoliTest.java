@@ -27,5 +27,11 @@ public class CalcoliTest {
         System.out.println("massimo int " + CalcoliHelper.massimo(4, 6));
         System.out.println("massimo double " + CalcoliHelper.massimo(4.4, 6.9));
 
+        // Potenza
+        System.out.println("Potenza (base 2, esponente 3): " + CalcoliHelper.potenza(2, 3));
+        System.out.println("Potenza (base -2, esponente 3): " + CalcoliHelper.potenza(-2, 3));
+        System.out.println("Potenza (base 2, esponente -3): " + CalcoliHelper.potenza(2, -3));
+        System.out.println("Potenza (base 0, esponente 0): " + CalcoliHelper.potenza(0, 0));
+
     }
 }
